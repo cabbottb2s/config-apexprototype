@@ -1,0 +1,23 @@
+pricing:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: '{cipher}0108efb5ac10d90a8fe1b92ec708175f4272526a2c6761bf39571f662757743520941d4eb61d74080bebdd1f5ad85a09'
+    url: 'jdbc:sqlserver://sqlserver;databaseName=pricing_service'
+    username: pricing
+  # needs to be set even for non-UA Var pricing
+  united:
+    url: 'http://nowhere.to.go'
+    sourceId: dummy
+  ehf:
+    realtime:
+      merchants:
+
+flyway:
+  user: 'pricing_flyway'
+  password: '{cipher}0f00a4f1cae1cbd9c0ccc3bc829e35d75f63149c3b533fb06f1eae4208c394b59bbd0d27181c36ba74be064678e817be'
+  url: 'jdbc:sqlserver://sqlserver:1433;databaseName=pricing_service'
+
+b2s.flyway.migrationStrategy: MIGRATE
+
+spring.cloud.consul.enabled: false
+
