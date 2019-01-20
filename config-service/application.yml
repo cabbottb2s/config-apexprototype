@@ -8,3 +8,5 @@ security.ldap:
 server:
   port: 8080
 
+spring.cloud.consul.enabled: false
+
