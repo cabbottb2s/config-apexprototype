@@ -1,0 +1,10 @@
+oauth.jwt.signing-key: secretsecretsecretsecretsecretsecret
+
+security.ldap:
+  url: 'ldaps://foo.com'
+  domain: 'foo.com'
+  pattern: '(&(objectClass=user)(userPrincipalName={0})(memberof=CN=foo,OU=foo,OU=foo,OU=foo,DC=bar,DC=com))'
+
+server:
+  port: 8080
+
