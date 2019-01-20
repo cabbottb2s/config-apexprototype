@@ -1,7 +1,7 @@
 pricing:
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    password: '{cipher}ee420a68bcd1befe427db394520a2be8c5c398e1bacd10ecb13e24a5cae31964'
+    password: '{cipher}ce1b12d0a01c6af23e1b9df7e525ff4acd49f24895508de19f2154dfd446c101b766942b87fa36328dc554fe8d980b99'
     url: 'jdbc:sqlserver://sqlserver;databaseName=pricing_service'
     username: pricing
   # needs to be set even for non-UA Var pricing
@@ -14,7 +14,7 @@ pricing:
 
 flyway:
   user: 'pricing_flyway'
-  password: '{cipher}e928cb593bbf3a2c8b66a4deafc2100f58a1b4b9aa853e13ed8cce4134f6fdd2'
+  password: '{cipher}3821c486c4f42d49aae0b7a9efbb9bf8add35aa94caf99670ce6726cf97c27619d1b31133a1d7273581680113bbcfb6a'
   url: 'jdbc:sqlserver://sqlserver:1433;databaseName=pricing_service'
 
 b2s.flyway.migrationStrategy: MIGRATE
