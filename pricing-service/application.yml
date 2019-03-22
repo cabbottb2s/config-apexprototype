@@ -15,7 +15,7 @@ pricing:
 spring.flyway:
   user: 'pricing_flyway'
   password: '{cipher}3821c486c4f42d49aae0b7a9efbb9bf8add35aa94caf99670ce6726cf97c27619d1b31133a1d7273581680113bbcfb6a'
-  url: 'jdbc:sqlserver://sqlserver:1433;databaseName=pricing_service'
+  url: 'jdbc:sqlserver://eks-test-db.cycaz8px1vcb.eu-west-1.rds.amazonaws.com:3341;databaseName=pricing_service'
 
 b2s.flyway.migrationStrategy: MIGRATE
 
