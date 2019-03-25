@@ -2,7 +2,7 @@ pricing:
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
     password: '{cipher}ce1b12d0a01c6af23e1b9df7e525ff4acd49f24895508de19f2154dfd446c101b766942b87fa36328dc554fe8d980b99'
-    url: 'jdbc:sqlserver://sqlserver;databaseName=pricing_service'
+    url: 'jdbc:sqlserver://eks-test-db.cycaz8px1vcb.eu-west-1.rds.amazonaws.com:3341;databaseName=pricing_service'
     username: pricing
   # needs to be set even for non-UA Var pricing
   united:
