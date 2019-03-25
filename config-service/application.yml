@@ -10,3 +10,5 @@ server:
 
 spring.cloud.consul.enabled: false
 
+management.health.ldap.enabled: false
+
